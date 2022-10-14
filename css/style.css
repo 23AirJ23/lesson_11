@@ -1,0 +1,76 @@
+/* Підключення шрифтів*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{
+   background: url('../img/road.jpg') center no-repeat;
+}
+
+
+.wrapper {
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+}
+
+.run{
+   display: inline-block;
+   width: 400px;
+   height: 200px;
+   margin-top: 500px;
+   margin-left: 500px;
+}
+
+
+.run:hover img:nth-child(2){
+   left: -200px;
+   width: 200px;
+}
+
+.run:hover img:nth-child(3){
+   top: 200px;
+   opacity: 0;
+}
+.run:hover img:nth-child(4){
+   width: 100px;
+   top: 100px;
+   right: 700px;
+   transform: rotate(-50deg);
+}
+
+
+
+
+.carcass{
+   width: 500px;
+   position: absolute;
+   top: 450px;
+   left: 450px;
+}
+
+
+.spaseship__pic{
+   width: 600px;
+   position: absolute;
+   left: 50%;
+   top: 50px;
+   transition: 1.5s ease-in;
+}
+
+
+.alien__pic{
+   position: absolute;
+   width: 300px;
+   left: 250px;
+   top: 400px;
+   transition: 1s ease-in;
+}
+
+.super {
+   width: 200px;
+   position: absolute;
+   right: -200px;
+   top: 400px;
+   transition: 1.5s ease-in;
+}
